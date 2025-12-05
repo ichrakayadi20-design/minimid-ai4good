@@ -79,7 +79,7 @@ col1, col2 = st.columns(2)
 with col1:
     etude = st.slider("Heures d’étude par semaine", 0, 50, 20)
 with col2:
-    sommeil =  = st.slider("Heures de sommeil par nuit", 4, 12, 8)
+sommeil = st.slider("Heures de sommeil par nuit", 4, 12, 8)
 
 note = min(20, etude * 0.3 + sommeil * 1.2 + 2)
 st.metric("Note prédite", f"{note:.1f}/20", delta=f"+{note-10:+.1f}")
