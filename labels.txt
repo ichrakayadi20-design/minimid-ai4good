@@ -1,0 +1,3 @@
+0 Chat 
+1 Chien 
+2 Autre 
