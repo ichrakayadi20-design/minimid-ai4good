@@ -1,5 +1,5 @@
 # ==================== 2. Reconnaissance d’image ====================
-st.header("2️⃣ C’est un chat ou un chien ?")
+st.header(" C’est un chat ou un chien ?")
 st.write("Modèle créé avec Teachable Machine (Google) – entraîné sur vos photos !")
 
 @st.cache_resource
